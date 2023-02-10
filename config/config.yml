@@ -1,0 +1,17 @@
+
+web_drivers:
+  chrome:
+    options:
+#      - "--headless"
+      - "--no-sandbox"
+
+
+websites:
+  localhost:
+    "http://localhost:8080"
+  calculater:
+    "http://localhost:3000"
+
+
+
+
